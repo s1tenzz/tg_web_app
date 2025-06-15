@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Telegram WebApp</title>
+</head>
+<body>
+  <h1>Привет из web app</h1>
+  <script>
+    const tg = window.Telegram.WebApp;
+    tg.expand();
+    tg.MainButton.setText("Нажми меня");
+    tg.MainButton.show();
+  </script>
+</body>
+</html>
