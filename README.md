@@ -9,6 +9,6 @@ pip install -r requirements.txt
 
 - Run local server
 ```
-python manage.py runserver
+python web/manage.py runserver
 ```
 
